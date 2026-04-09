@@ -1,0 +1,12 @@
+flowchart TD
+    A[setup-created] -->|Compile Template| C[beforeMount-onBeforeMount]
+    C -->| app.$el created | E[mounted-onMounted]
+    E --> F[Active Component]
+
+    F -->|reactive change| G[beforeUpdate-onBeforeUpdate]
+    G -->| Virtual DOM re render | I[updated-onUpdated]
+    I --> F
+
+    F -->|app.unmount| H[beforeUnmount-onBeforeUnmount]
+    H -->| Teardown Watchers, children ans event listeners | K[Component unmounted]
+    K --> L[onUnmounted]

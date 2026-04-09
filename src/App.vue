@@ -4,9 +4,10 @@
 // import EjemploProps01 from "./components/props/EjemploProps01.vue";
 // import EjemploProps02Default from "./components/props/EjemploProps02Default.vue";
 // import PadreContador from "./components/emit/PadreContador.vue";
-import UsaSlotCompositionComponent from "./components/slots/UsaSlotCompositionComponent.vue";
-import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
-import UsaUserList from "./components/slots/UsaUserList.vue";
+// import UsaSlotCompositionComponent from "./components/slots/UsaSlotComponent.vue";
+// import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
+// import UsaUserList from "./components/slots/UsaUserList.vue";
+import CicloVidaDemo from "./components/lifecycle/CicloVidaDemo.vue";
 </script>
 
 <template>
@@ -15,8 +16,9 @@ import UsaUserList from "./components/slots/UsaUserList.vue";
   <EjemploProps01/>
   <EjemploProps02Default/>
   <EjemploProps02Default nombre="Patricia"/>
-  <PadreContador/-->
+  <PadreContador/>
   <UsaSlotCompositionComponent/>
   <UsaCardLayout/>
-  <UsaUserList/>
+  <UsaUserList/-->
+  <CicloVidaDemo/>
 </template>
