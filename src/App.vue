@@ -7,10 +7,11 @@
 // import UsaSlotCompositionComponent from "./components/slots/UsaSlotComponent.vue";
 // import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
 // import UsaUserList from "./components/slots/UsaUserList.vue";
-import CicloVidaDemo from "./components/lifecycle/CicloVidaDemo.vue";
-import ReactiveComponent from "./components/reactive/ReactiveComponent.vue";
-import ComputedComponent from "./components/reactive/ComputedComponent.vue";
-import WatchComponent from "./components/reactive/WatchComponent.vue";
+// import CicloVidaDemo from "./components/lifecycle/CicloVidaDemo.vue";
+// import ReactiveComponent from "./components/reactive/ReactiveComponent.vue";
+// import ComputedComponent from "./components/reactive/ComputedComponent.vue";
+// import WatchComponent from "./components/reactive/WatchComponent.vue";
+import DataBinding from "./components/data-binding/DataBinding.vue";
 </script>
 
 <template>
@@ -23,8 +24,9 @@ import WatchComponent from "./components/reactive/WatchComponent.vue";
   <UsaSlotCompositionComponent/>
   <UsaCardLayout/>
   <UsaUserList/>
-  <CicloVidaDemo/-->
+  <CicloVidaDemo/>
   <ReactiveComponent/>
   <ComputedComponent/>
-  <WatchComponent/>
+  <WatchComponent/-->
+  <DataBinding/>
 </template>
