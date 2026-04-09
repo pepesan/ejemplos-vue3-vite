@@ -3,7 +3,9 @@
 // import PrimerComponente from "./components/PrimerComponente.vue";
 // import EjemploProps01 from "./components/props/EjemploProps01.vue";
 // import EjemploProps02Default from "./components/props/EjemploProps02Default.vue";
-import PadreContador from "./components/emit/PadreContador.vue";
+// import PadreContador from "./components/emit/PadreContador.vue";
+import UsaSlotCompositionComponent from "./components/slots/UsaSlotCompositionComponent.vue";
+import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
 </script>
 
 <template>
@@ -11,6 +13,8 @@ import PadreContador from "./components/emit/PadreContador.vue";
   <EjemploProps01 nombre="Juan"/>
   <EjemploProps01/>
   <EjemploProps02Default/>
-  <EjemploProps02Default nombre="Patricia"/-->
-  <PadreContador/>
+  <EjemploProps02Default nombre="Patricia"/>
+  <PadreContador/-->
+  <UsaSlotCompositionComponent/>
+  <UsaCardLayout/>
 </template>
