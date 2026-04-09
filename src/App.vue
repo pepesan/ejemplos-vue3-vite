@@ -8,6 +8,9 @@
 // import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
 // import UsaUserList from "./components/slots/UsaUserList.vue";
 import CicloVidaDemo from "./components/lifecycle/CicloVidaDemo.vue";
+import ReactiveComponent from "./components/reactive/ReactiveComponent.vue";
+import ComputedComponent from "./components/reactive/ComputedComponent.vue";
+import WatchComponent from "./components/reactive/WatchComponent.vue";
 </script>
 
 <template>
@@ -19,6 +22,9 @@ import CicloVidaDemo from "./components/lifecycle/CicloVidaDemo.vue";
   <PadreContador/>
   <UsaSlotCompositionComponent/>
   <UsaCardLayout/>
-  <UsaUserList/-->
-  <CicloVidaDemo/>
+  <UsaUserList/>
+  <CicloVidaDemo/-->
+  <ReactiveComponent/>
+  <ComputedComponent/>
+  <WatchComponent/>
 </template>
