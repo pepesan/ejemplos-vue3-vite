@@ -6,6 +6,7 @@
 // import PadreContador from "./components/emit/PadreContador.vue";
 import UsaSlotCompositionComponent from "./components/slots/UsaSlotCompositionComponent.vue";
 import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
+import UsaUserList from "./components/slots/UsaUserList.vue";
 </script>
 
 <template>
@@ -17,4 +18,5 @@ import UsaCardLayout from "./components/slots/UsaCardLayout.vue";
   <PadreContador/-->
   <UsaSlotCompositionComponent/>
   <UsaCardLayout/>
+  <UsaUserList/>
 </template>
