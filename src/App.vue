@@ -12,6 +12,14 @@
 // import ComputedComponent from "./components/reactive/ComputedComponent.vue";
 // import WatchComponent from "./components/reactive/WatchComponent.vue";
 import DataBinding from "./components/data-binding/DataBinding.vue";
+import CondicionalCompositionComponent from "./components/directives/CondicionalCompositionComponent.vue";
+import CondicionalComplexComponent from "./components/directives/CondicionalComplexComponent.vue";
+import CondicionalElseCompositionComponent from "./components/directives/CondicionalElseCompositionComponent.vue";
+import ListadoComponent from "./components/directives/ListadoComponent.vue";
+import LlamaListadoCompositionComponent from "./components/directives/LlamaListadoCompositionComponent.vue";
+import ModelCompositionComponent from "./components/directives/ModelCompositionComponent.vue";
+import UsaDirectivaCustomComponent from "./components/directives/UsaDirectivaCustomComponent.vue";
+import UsaDirectivaCustomCargaLocalComponent from "./components/directives/UsaDirectivaCustomCargaLocalComponent.vue";
 </script>
 
 <template>
@@ -27,6 +35,14 @@ import DataBinding from "./components/data-binding/DataBinding.vue";
   <CicloVidaDemo/>
   <ReactiveComponent/>
   <ComputedComponent/>
-  <WatchComponent/-->
-  <DataBinding/>
+  <WatchComponent/>
+  <DataBinding/-->
+  <CondicionalCompositionComponent/>
+  <CondicionalElseCompositionComponent/>
+  <CondicionalComplexComponent/>
+  <ListadoComponent/>
+  <LlamaListadoCompositionComponent/>
+  <ModelCompositionComponent/>
+  <UsaDirectivaCustomComponent/>
+  <UsaDirectivaCustomCargaLocalComponent/>
 </template>

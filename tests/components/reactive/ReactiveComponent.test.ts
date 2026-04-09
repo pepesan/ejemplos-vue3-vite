@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { describe, it, expect } from 'vitest'
 import ReactiveComponent from '../../../src/components/reactive/ReactiveComponent.vue'
 
-describe('ContadorUsuario.vue', () => {
+describe('ReactiveComponent.vue', () => {
     it('muestra los valores iniciales correctamente', () => {
         const wrapper = mount(ReactiveComponent)
 

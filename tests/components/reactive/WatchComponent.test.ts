@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { describe, it, expect, vi } from 'vitest'
 import WatchComponent from '../../../src/components/reactive/WatchComponent.vue'
 
-describe('WatchContador.vue', () => {
+describe('WatchComponent.vue', () => {
     it('muestra el valor inicial del contador', () => {
         const wrapper = mount(WatchComponent)
 

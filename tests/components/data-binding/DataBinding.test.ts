@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { describe, it, expect } from 'vitest'
 import DataBinding from '../../../src/components/data-binding/DataBinding.vue'
 
-describe('InterpolacionBinding.vue', () => {
+describe('DataBinding.vue', () => {
     it('renderiza correctamente el mensaje', () => {
         const wrapper = mount(DataBinding)
 
