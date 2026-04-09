@@ -1,0 +1,29 @@
+@startuml
+start
+
+:setup-created;
+
+:Compile Template;
+:beforeMount / onBeforeMount;
+
+:app.$el created;
+:mounted / onMounted;
+
+:Active Component;
+
+while (Activated Component?) is (sí)
+  if (reactive change?) then (sí)
+    :beforeUpdate / onBeforeUpdate;
+    :Virtual DOM re-render;
+    :updated / onUpdated;
+  endif
+endwhile (no)
+
+:app.unmount;
+:beforeUnmount / onBeforeUnmount;
+:Teardown watchers, children and event listeners;
+:Component unmounted;
+:onUnmounted;
+
+stop
+@enduml
