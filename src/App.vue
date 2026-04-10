@@ -27,6 +27,9 @@ import EventosParametros from "./components/events/EventosParametros.vue";
 import DynamicClassesStyles from "./components/dynamic-styles/DynamicClassesStyles.vue";
 import EventoPrevent from "./components/events/EventoPrevent.vue";
 import EventosModificadores from "./components/events/EventosModificadores.vue";
+import FormularioCompositionComponent from "./components/forms/FormularioCompositionComponent.vue";
+import YupValidationCompositionComponent from "./components/forms/YupValidationCompositionComponent.vue";
+import YupValidationLoginCompositionComponent from "./components/forms/YupValidationLoginCompositionComponent.vue";
 </script>
 
 <template>
@@ -43,7 +46,7 @@ import EventosModificadores from "./components/events/EventosModificadores.vue";
   <ReactiveComponent/>
   <ComputedComponent/>
   <WatchComponent/>
-  <DataBinding/-->
+  <DataBinding/>
   <CondicionalCompositionComponent/>
   <CondicionalElseCompositionComponent/>
   <CondicionalComplexComponent/>
@@ -58,5 +61,8 @@ import EventosModificadores from "./components/events/EventosModificadores.vue";
   <EventosComoParametro/>
   <DynamicClassesStyles/>
   <EventoPrevent/>
-  <EventosModificadores/>
+  <EventosModificadores/-->
+  <FormularioCompositionComponent/>
+  <YupValidationCompositionComponent/>
+  <YupValidationLoginCompositionComponent/>
 </template>
