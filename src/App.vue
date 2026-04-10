@@ -20,6 +20,11 @@ import LlamaListadoCompositionComponent from "./components/directives/LlamaLista
 import ModelCompositionComponent from "./components/directives/ModelCompositionComponent.vue";
 import UsaDirectivaCustomComponent from "./components/directives/UsaDirectivaCustomComponent.vue";
 import UsaDirectivaCustomCargaLocalComponent from "./components/directives/UsaDirectivaCustomCargaLocalComponent.vue";
+import Binding from "./components/directives/Binding.vue";
+import EventosCompositionComponent from "./components/events/EventosCompositionComponent.vue";
+import EventosComoParametro from "./components/events/EventosComoParametro.vue";
+import EventosParametros from "./components/events/EventosParametros.vue";
+import DynamicClassesStyles from "./components/dynamic-styles/DynamicClassesStyles.vue";
 </script>
 
 <template>
@@ -45,4 +50,9 @@ import UsaDirectivaCustomCargaLocalComponent from "./components/directives/UsaDi
   <ModelCompositionComponent/>
   <UsaDirectivaCustomComponent/>
   <UsaDirectivaCustomCargaLocalComponent/>
+  <Binding/>
+  <EventosCompositionComponent/>
+  <EventosParametros/>
+  <EventosComoParametro/>
+  <DynamicClassesStyles/>
 </template>
