@@ -5,6 +5,7 @@ import UsersPage from '../pages/UsersPage.vue'
 import UserDetailPage from '../pages/UserDetailPage.vue'
 import NotFoundPage from '../pages/NotFoundPage.vue'
 import SearchPage from '../pages/SearchPage.vue'
+import { profileRoutes } from '../modules/profile/profile.routes'
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
@@ -36,7 +37,9 @@ const routes: RouteRecordRaw[] = [
         path: '/search',
         name: 'search',
         component: SearchPage
-    }
+    },
+    // importación de las rutas del módulo profile
+    profileRoutes,
 ]
 
 const router = createRouter({
