@@ -30,6 +30,8 @@ import EventosModificadores from "./components/events/EventosModificadores.vue";
 import FormularioCompositionComponent from "./components/forms/FormularioCompositionComponent.vue";
 import YupValidationCompositionComponent from "./components/forms/YupValidationCompositionComponent.vue";
 import YupValidationLoginCompositionComponent from "./components/forms/YupValidationLoginCompositionComponent.vue";
+import PartidosAxiosComponent from "./components/httprequest/PartidosAxiosComponent.vue";
+import PostAxiosFormComponent from "./components/httprequest/PostAxiosFormComponent.vue";
 </script>
 
 <template>
@@ -78,4 +80,6 @@ import YupValidationLoginCompositionComponent from "./components/forms/YupValida
 
     <router-view />
   </div>
+  <PartidosAxiosComponent/>
+  <PostAxiosFormComponent/>
 </template>
