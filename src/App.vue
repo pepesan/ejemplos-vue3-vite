@@ -30,6 +30,8 @@ import EventosModificadores from "./components/events/EventosModificadores.vue";
 import FormularioCompositionComponent from "./components/forms/FormularioCompositionComponent.vue";
 import YupValidationCompositionComponent from "./components/forms/YupValidationCompositionComponent.vue";
 import YupValidationLoginCompositionComponent from "./components/forms/YupValidationLoginCompositionComponent.vue";
+import PartidosAxiosComponent from "./components/httprequest/PartidosAxiosComponent.vue";
+import PostAxiosFormComponent from "./components/httprequest/PostAxiosFormComponent.vue";
 </script>
 
 <template>
@@ -61,8 +63,23 @@ import YupValidationLoginCompositionComponent from "./components/forms/YupValida
   <EventosComoParametro/>
   <DynamicClassesStyles/>
   <EventoPrevent/>
-  <EventosModificadores/-->
+  <EventosModificadores/>
   <FormularioCompositionComponent/>
   <YupValidationCompositionComponent/>
-  <YupValidationLoginCompositionComponent/>
+  <YupValidationLoginCompositionComponent/-->
+  <div>
+    <nav>
+      <router-link to="/">Inicio</router-link>
+      |
+      <router-link to="/about">Acerca de</router-link>
+      |
+      <router-link to="/users">Usuarios</router-link>
+      |
+      <router-link to="/profile">Profile</router-link>
+    </nav>
+
+    <router-view />
+  </div>
+  <PartidosAxiosComponent/>
+  <PostAxiosFormComponent/>
 </template>
