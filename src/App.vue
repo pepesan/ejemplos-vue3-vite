@@ -70,6 +70,8 @@ import YupValidationLoginCompositionComponent from "./components/forms/YupValida
       <router-link to="/">Inicio</router-link>
       |
       <router-link to="/about">Acerca de</router-link>
+      |
+      <router-link to="/users">Usuarios</router-link>
     </nav>
 
     <router-view />
