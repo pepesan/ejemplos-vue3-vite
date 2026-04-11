@@ -61,8 +61,17 @@ import YupValidationLoginCompositionComponent from "./components/forms/YupValida
   <EventosComoParametro/>
   <DynamicClassesStyles/>
   <EventoPrevent/>
-  <EventosModificadores/-->
+  <EventosModificadores/>
   <FormularioCompositionComponent/>
   <YupValidationCompositionComponent/>
-  <YupValidationLoginCompositionComponent/>
+  <YupValidationLoginCompositionComponent/-->
+  <div>
+    <nav>
+      <router-link to="/">Inicio</router-link>
+      |
+      <router-link to="/about">Acerca de</router-link>
+    </nav>
+
+    <router-view />
+  </div>
 </template>
