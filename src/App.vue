@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import PartidosAxiosComponent from "./components/httprequest/PartidosAxiosComponent.vue";
-import PostAxiosFormComponent from "./components/httprequest/PostAxiosFormComponent.vue";
-import PartidosAxiosEnvVariableComponent from "./components/httprequest/PartidosAxiosEnvVariableComponent.vue";
 import PiniaCounterDisplay from "./components/pinia/PiniaCounterDisplay.vue";
+import ListaProductos from "./components/services/ListaProductos.vue";
 </script>
 
 <template>
@@ -55,4 +53,5 @@ import PiniaCounterDisplay from "./components/pinia/PiniaCounterDisplay.vue";
   <PostAxiosFormComponent/>
   <PartidosAxiosEnvVariableComponent/-->
   <PiniaCounterDisplay/>
+  <ListaProductos/>
 </template>
