@@ -6,7 +6,6 @@ const ProfileOrdersPage = () => import('./pages/ProfileOrdersPage.vue')
 
 export const profileRoutes: RouteRecordRaw = {
     path: '/profile',
-    name: 'profile',
     component: ProfilePage,
     children: [
         {

@@ -1,41 +1,8 @@
 <script setup lang="ts">
-import PiniaCounterDisplay from "./components/pinia/PiniaCounterDisplay.vue";
-import ListaProductos from "./components/services/ListaProductos.vue";
 </script>
 
 <template>
-  <!--PrimerComponente/>
-  <EjemploProps01 nombre="Juan"/>
-  <EjemploProps01/>
-  <EjemploProps02Default/>
-  <EjemploProps02Default nombre="Patricia"/>
-  <PadreContador/>
-  <UsaSlotCompositionComponent/>
-  <UsaCardLayout/>
-  <UsaUserList/>
-  <CicloVidaDemo/>
-  <ReactiveComponent/>
-  <ComputedComponent/>
-  <WatchComponent/>
-  <DataBinding/>
-  <CondicionalCompositionComponent/>
-  <CondicionalElseCompositionComponent/>
-  <CondicionalComplexComponent/>
-  <ListadoComponent/>
-  <LlamaListadoCompositionComponent/>
-  <ModelCompositionComponent/>
-  <UsaDirectivaCustomComponent/>
-  <UsaDirectivaCustomCargaLocalComponent/>
-  <Binding/>
-  <EventosCompositionComponent/>
-  <EventosParametros/>
-  <EventosComoParametro/>
-  <DynamicClassesStyles/>
-  <EventoPrevent/>
-  <EventosModificadores/>
-  <FormularioCompositionComponent/>
-  <YupValidationCompositionComponent/>
-  <YupValidationLoginCompositionComponent/-->
+
   <div>
     <nav>
       <router-link to="/">Inicio</router-link>
@@ -49,9 +16,4 @@ import ListaProductos from "./components/services/ListaProductos.vue";
 
     <router-view />
   </div>
-  <!--PartidosAxiosComponent/>
-  <PostAxiosFormComponent/>
-  <PartidosAxiosEnvVariableComponent/-->
-  <PiniaCounterDisplay/>
-  <ListaProductos/>
 </template>
