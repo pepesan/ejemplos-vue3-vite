@@ -1,6 +1,8 @@
 <template>
+  <h4> Componente hijo</h4>
   <ul>
     <li v-for="user in users" :key="user.id">
+      <span> usuario</span>
       <slot :user="user"></slot>
     </li>
   </ul>

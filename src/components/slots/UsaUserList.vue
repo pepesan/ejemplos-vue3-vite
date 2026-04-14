@@ -1,4 +1,5 @@
 <template>
+  <h4> Componente padre</h4>
   <UserList v-slot="{ user }">
     <p>{{ user.name }} - {{ user.age }} años</p>
   </UserList>
