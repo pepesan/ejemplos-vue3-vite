@@ -17,3 +17,12 @@ import ScopedMasNamedSlots from "./ScopedMasNamedSlots.vue";
     </ScopedMasNamedSlots>
   </main>
 </template>
+<style scoped>
+main {
+  padding: 24px;
+}
+
+.fila-custom {
+  padding: 6px 0;
+}
+</style>
