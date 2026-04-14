@@ -18,6 +18,9 @@ function incrementar() {
 function cumplirAnios() {
   usuario.edad++
 }
+function cambiarNombre() {
+  usuario.nombre = 'Marta'
+}
 </script>
 
 <template>
@@ -27,6 +30,7 @@ function cumplirAnios() {
 
     <h2>Usuario: {{ usuario.nombre }} ({{ usuario.edad }} años)</h2>
     <button @click="cumplirAnios">Cumplir años</button>
+    <button @click="cambiarNombre">Cambiar nombre</button>
   </div>
 </template>
 
