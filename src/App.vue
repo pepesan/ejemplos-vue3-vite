@@ -1,4 +1,17 @@
 <script setup lang="ts">
+import Contador from "./ejercicios/unidad03/Contador.vue";
+import UsaUserCard from "./ejercicios/unidad03/UsaUserCard.vue";
+import UsaBotonAccion from "./ejercicios/unidad03/UsaBotonAccion.vue";
+import UsaCajaContenido from "./ejercicios/unidad03/UsaCajaContenido.vue";
+import ContadorBasico from "./ejercicios/unidad04/ContadorBasico.vue";
+import FichaUsuario from "./ejercicios/unidad04/FichaUsuario.vue";
+import NombreCompleto from "./ejercicios/unidad04/NombreCompleto.vue";
+import BuscadorLista from "./ejercicios/unidad04/BuscadorLista.vue";
+import ContadorConAviso from "./ejercicios/unidad04/ContadorConAviso.vue";
+import MostrarOcultar from "./ejercicios/unidad04/MostrarOcultar.vue";
+import ListaAlumnos from "./ejercicios/unidad04/ListaAlumnos.vue";
+import BotonColor from "./ejercicios/unidad04/BotonColor.vue";
+import BuscadorListaConWatch from "./ejercicios/unidad04/BuscadorListaConWatch.vue";
 </script>
 
 <template>
