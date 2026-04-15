@@ -11,7 +11,7 @@ function alternarEstado() {
 <template>
   <div>
     <p
-        :class="{ destacado: activo }"
+        :class="{ destacado: activo, destacado2: activo }"
         :style="{ color: activo ? 'green' : 'gray' }"
     >
       Estado visual dinámico
@@ -25,6 +25,10 @@ function alternarEstado() {
 
 <style scoped>
 .destacado {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.destacado2 {
   font-weight: bold;
   font-size: 1.1rem;
 }
