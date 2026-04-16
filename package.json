@@ -20,7 +20,9 @@
     "pinia": "^3.0.4",
     "vue": "^3.5.32",
     "vue-router": "^4.6.4",
-    "yup": "^1.7.1"
+    "yup": "^1.7.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
