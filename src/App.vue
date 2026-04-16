@@ -12,6 +12,14 @@ import MostrarOcultar from "./ejercicios/unidad04/MostrarOcultar.vue";
 import ListaAlumnos from "./ejercicios/unidad04/ListaAlumnos.vue";
 import BotonColor from "./ejercicios/unidad04/BotonColor.vue";
 import BuscadorListaConWatch from "./ejercicios/unidad04/BuscadorListaConWatch.vue";
+import LoginForm from "./ejercicios/unidad05/LoginForm.vue";
+import ListadoForm from "./ejercicios/unidad05/ListadoForm.vue";
+import BotonMensaje from "./ejercicios/unidad05/BotonMensaje.vue";
+import BotonUnSoloClick from "./ejercicios/unidad05/BotonUnSoloClick.vue";
+import CambiarColor from "./ejercicios/unidad05/CambiarColor.vue";
+import InputEnter from "./ejercicios/unidad05/InputEnter.vue";
+import ListaEliminar from "./ejercicios/unidad05/ListaEliminar.vue";
+import Saludos from "./ejercicios/unidad05/Saludos.vue";
 </script>
 
 <template>
@@ -29,4 +37,12 @@ import BuscadorListaConWatch from "./ejercicios/unidad04/BuscadorListaConWatch.v
 
     <router-view />
   </div>
+  <BotonMensaje />
+  <BotonUnSoloClick />
+  <CambiarColor />
+  <InputEnter />
+  <ListadoForm />
+  <ListaEliminar />
+  <LoginForm />
+  <Saludos />
 </template>
