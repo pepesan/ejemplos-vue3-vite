@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import UseLocalStorage from "./components/composables/vueuse/UseLocalStorage.vue";
+import UseFiles from "./components/composables/vueuse/UseFiles.vue";
+import UseDropFiles from "./components/composables/vueuse/UseDropFiles.vue";
+import UseFetchPartidos from "./components/composables/vueuse/UseFetchPartidos.vue";
 </script>
 
 <template>
@@ -17,5 +19,4 @@ import UseLocalStorage from "./components/composables/vueuse/UseLocalStorage.vue
 
     <router-view />
   </div>
-  <UseLocalStorage />
 </template>
