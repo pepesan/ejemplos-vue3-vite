@@ -12,17 +12,17 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:report": "playwright show-report"
-
   },
   "dependencies": {
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vueuse/core": "^14.2.1",
     "axios": "^1.15.0",
     "flush-promises": "^1.0.2",
     "pinia": "^3.0.4",
     "vue": "^3.5.32",
     "vue-router": "^4.6.4",
-    "yup": "^1.7.1",
-    "@vuelidate/core": "^2.0.3",
-    "@vuelidate/validators": "^2.0.4"
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",

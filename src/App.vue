@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import UseLocalStorage from "./components/composables/vueuse/UseLocalStorage.vue";
 </script>
 
 <template>
@@ -16,4 +17,5 @@
 
     <router-view />
   </div>
+  <UseLocalStorage />
 </template>
