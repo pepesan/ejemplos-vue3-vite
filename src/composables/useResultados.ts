@@ -9,14 +9,12 @@ export interface ResultadoPartido {
     nombre: string
     dipu: number
     imagen: string
-}
-
-export interface ResultadoPartidoConImagen extends ResultadoPartido {
     imagenUrl: string
 }
 
+
 export function useResultados() {
-    const resultados = ref<ResultadoPartidoConImagen[]>([])
+    const resultados = ref<ResultadoPartido[]>([])
     const loading = ref<boolean>(false)
     const error = ref<string | null>(null)
 
