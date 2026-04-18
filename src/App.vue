@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import FadeExample from "./components/transitions/FadeExample.vue";
+import ListTransition from "./components/transitions/ListTransition.vue";
+import BounceExample from "./components/animations/BounceExample.vue";
 </script>
 
 <template>
@@ -16,4 +19,7 @@
 
     <router-view />
   </div>
+  <FadeExample />
+  <ListTransition />
+  <BounceExample />
 </template>
