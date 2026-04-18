@@ -5,6 +5,11 @@ import vRedBackground from './directives/v-red-background'
 import vYellowBackground from './directives/v-yellow-background'
 import router from './router'
 import { createPinia } from 'pinia'
+
+// importamos el css de bootstrap
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
+
 const pinia = createPinia()
 
 const app = createApp(App)
