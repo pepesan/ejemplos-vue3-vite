@@ -12,18 +12,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AbueloContador: typeof import('./src/components/emit/AbueloContador.vue')['default']
-    BApp: typeof import('bootstrap-vue-next/components/BApp')['BApp']
-    BButton: typeof import('bootstrap-vue-next/components/BButton')['BButton']
-    BCollapse: typeof import('bootstrap-vue-next/components/BCollapse')['BCollapse']
-    BContainer: typeof import('bootstrap-vue-next/components/BContainer')['BContainer']
-    BDropdownItem: typeof import('bootstrap-vue-next/components/BDropdown')['BDropdownItem']
     Binding: typeof import('./src/components/directives/Binding.vue')['default']
-    BNavbar: typeof import('bootstrap-vue-next/components/BNavbar')['BNavbar']
-    BNavbarBrand: typeof import('bootstrap-vue-next/components/BNavbar')['BNavbarBrand']
-    BNavbarNav: typeof import('bootstrap-vue-next/components/BNavbar')['BNavbarNav']
-    BNavbarToggle: typeof import('bootstrap-vue-next/components/BNavbar')['BNavbarToggle']
-    BNavItem: typeof import('bootstrap-vue-next/components/BNav')['BNavItem']
-    BNavItemDropdown: typeof import('bootstrap-vue-next/components/BNav')['BNavItemDropdown']
     BounceExample: typeof import('./src/components/animations/BounceExample.vue')['default']
     ButtonExample: typeof import('./src/components/bootstrap/ButtonExample.vue')['default']
     CardLayout: typeof import('./src/components/slots/CardLayout.vue')['default']

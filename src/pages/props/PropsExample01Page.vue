@@ -2,7 +2,6 @@
   <div>
     <h1>Ejemplo de Props 1</h1>
     <EjemploProps01 nombre="Pepe" />
-    <EjemploProps01 />
   </div>
 </template>
 

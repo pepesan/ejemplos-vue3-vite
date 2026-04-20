@@ -141,6 +141,11 @@ const cerrarMenu = () => {
           <BDropdownItem to="/forms/yup-login" @click="cerrarMenu">Yup login</BDropdownItem>
           <BDropdownItem to="/forms/yup-complex" @click="cerrarMenu">Yup complejo</BDropdownItem>
         </BNavItemDropdown>
+        <BNavItemDropdown text="HttpRequest">
+          <BDropdownItem to="/http-request/partidos" @click="cerrarMenu">Lista Partidos</BDropdownItem>
+          <BDropdownItem to="/http-request/post" @click="cerrarMenu">Post</BDropdownItem>
+          <BDropdownItem to="/http-request/envvars" @click="cerrarMenu">Variables Entorno</BDropdownItem>
+        </BNavItemDropdown>
       </BNav>
     </BOffcanvas>
 

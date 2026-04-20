@@ -39,7 +39,10 @@ import VuelidateLoginFormExample from '../components/forms/VuelidateLoginFormExa
 import YupValidationCompositionComponent from '../components/forms/YupValidationCompositionComponent.vue'
 import YupValidationLoginCompositionComponent from '../components/forms/YupValidationLoginCompositionComponent.vue'
 import YupValidationComplexComponent from '../components/forms/YupValidationComplexComponent.vue'
+import PartidosAxiosComponent from '../components/httprequest/PartidosAxiosComponent.vue'
 import { profileRoutes } from '../modules/profile/profile.routes'
+import PartidosAxiosEnvVariableComponent from "../components/httprequest/PartidosAxiosEnvVariableComponent.vue";
+import PostAxiosFormComponent from "../components/httprequest/PostAxiosFormComponent.vue";
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
@@ -246,6 +249,22 @@ const routes: RouteRecordRaw[] = [
         path: '/forms/yup-complex',
         name: 'forms-yup-complex',
         component: YupValidationComplexComponent
+    },
+    // Ejemplos de Http request
+    {
+        path: '/http-request/partidos',
+        name: 'http-request-partidos',
+        component: PartidosAxiosComponent
+    },
+    {
+        path: '/http-request/post',
+        name: 'http-request-post',
+        component: PostAxiosFormComponent
+    },
+    {
+        path: '/http-request/envvars',
+        name: 'http-request-envvars',
+        component: PartidosAxiosEnvVariableComponent
     },
     // módulo profile
     profileRoutes,
