@@ -9,6 +9,7 @@ import { createPinia } from 'pinia'
 // importamos el css de bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const pinia = createPinia()
 

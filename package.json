@@ -19,6 +19,7 @@
     "@vueuse/core": "^14.2.1",
     "axios": "^1.15.0",
     "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "bootstrap-vue-next": "^0.44.5",
     "flush-promises": "^1.0.2",
     "pinia": "^3.0.4",
