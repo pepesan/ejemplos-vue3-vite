@@ -133,7 +133,7 @@ const cerrarMenu = () => {
           <BDropdownItem to="/events/modificadores" @click="cerrarMenu">Modificadores</BDropdownItem>
         </BNavItemDropdown>
 
-        <BNavItemDropdown text="Formularios">
+        <BNavItemDropdown data-testid="forms" text="Formularios">
           <BDropdownItem to="/forms/basico" @click="cerrarMenu">Formulario básico</BDropdownItem>
           <BDropdownItem to="/forms/vuelidate" @click="cerrarMenu">Vuelidate</BDropdownItem>
           <BDropdownItem to="/forms/vuelidate-login" @click="cerrarMenu">Vuelidate login</BDropdownItem>
