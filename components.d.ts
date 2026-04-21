@@ -12,6 +12,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AbueloContador: typeof import('./src/components/emit/AbueloContador.vue')['default']
+    BButton: typeof import('bootstrap-vue-next/components/BButton')['BButton']
     Binding: typeof import('./src/components/directives/Binding.vue')['default']
     BounceExample: typeof import('./src/components/animations/BounceExample.vue')['default']
     ButtonExample: typeof import('./src/components/bootstrap/ButtonExample.vue')['default']
