@@ -3,11 +3,18 @@ import { test, expect } from '@playwright/test'
 test('el usuario navega a About y vuelve a Home', async ({ page }) => {
     // Abrir la aplicación
     await page.goto('http://localhost:5173')
-
     // Verificar que estamos en Home
     await expect(
         page.getByRole('heading', { name: 'Home Page' })
     ).toBeVisible()
+    // hacer click en el elemento cuyo id es menu
+    await page.locator("#menu").click()
+
+    // ocultamos el menu
+    await page.getByLabel('Cerrar').click()
+
+    // accedemos por el id oculto del menu
+    await page.getByTestId('menu').click()
 
     // Ir a la página About desde el menú
     await page.getByRole('link', { name: 'Acerca de' }).click()

@@ -33,7 +33,7 @@ const cerrarMenu = () => {
           Mi aplicación
         </BNavbarBrand>
 
-        <BButton variant="link" class="p-0 fs-4" @click="abrirMenu">
+        <BButton data-testid="menu" id="menu" variant="link" class="p-0 fs-4" @click="abrirMenu">
           <i class="bi bi-list"></i>
         </BButton>
       </BContainer>
