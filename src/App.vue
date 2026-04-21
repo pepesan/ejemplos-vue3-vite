@@ -146,6 +146,9 @@ const cerrarMenu = () => {
           <BDropdownItem to="/http-request/post" @click="cerrarMenu">Post</BDropdownItem>
           <BDropdownItem to="/http-request/envvars" @click="cerrarMenu">Variables Entorno</BDropdownItem>
         </BNavItemDropdown>
+        <BNavItem to="/pinia" @click="cerrarMenu">
+          Pinia Counter
+        </BNavItem>
       </BNav>
     </BOffcanvas>
 

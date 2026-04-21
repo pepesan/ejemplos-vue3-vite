@@ -43,6 +43,7 @@ import PartidosAxiosComponent from '../components/httprequest/PartidosAxiosCompo
 import { profileRoutes } from '../modules/profile/profile.routes'
 import PartidosAxiosEnvVariableComponent from "../components/httprequest/PartidosAxiosEnvVariableComponent.vue";
 import PostAxiosFormComponent from "../components/httprequest/PostAxiosFormComponent.vue";
+import PiniaCounterDisplay from "../components/pinia/PiniaCounterDisplay.vue";
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
@@ -265,6 +266,12 @@ const routes: RouteRecordRaw[] = [
         path: '/http-request/envvars',
         name: 'http-request-envvars',
         component: PartidosAxiosEnvVariableComponent
+    },
+    // Ejemplo Pinia
+    {
+        path: '/pinia',
+        name: 'pinia',
+        component: PiniaCounterDisplay
     },
     // módulo profile
     profileRoutes,
