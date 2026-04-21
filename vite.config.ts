@@ -12,33 +12,5 @@ export default defineConfig({
       Components({
         resolvers: [BootstrapVueNextResolver()],
       }),
-  ],
-  test: {
-    coverage: {
-        enabled: true,
-        provider: 'v8',
-        reporter: ['text', 'html', 'json'],
-        include: ['src/**/*.{js,ts,vue}'],
-        exclude: [
-            'src/main.ts',
-            'src/router/**',
-            'src/**/*.d.ts',
-            'tests/**',
-            'e2e/**',
-        ],
-    },
-    reporters: ['default', 'junit', 'json'],
-    outputFile: {
-        junit: './coverage/junit.xml',
-        json: './coverage/report.json',
-    },
-    environment: 'jsdom',
-    globals: true,
-    exclude: [
-      'node_modules/**',
-      'dist/**',
-      'e2e/**'
-    ],
-
-  }
+  ]
 })
