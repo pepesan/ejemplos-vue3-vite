@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('el usuario accede a Yup básico, valida el formulario y lo envía', async ({ page }) => {
+    test.setTimeout(5000) // 10 segundos
     // Abrir la aplicación
     await page.goto('http://localhost:5173')
 
@@ -10,7 +11,7 @@ test('el usuario accede a Yup básico, valida el formulario y lo envía', async 
     ).toBeVisible()
 
     // Abrir el menú
-    await page.locator('#menu').click()
+    await page.locator('#menu').click({ timeout: 5000 })
     // Abrir el Dropdown
     // accedemos por el id oculto del elemento
     await page.getByTestId('forms').click()
@@ -27,7 +28,7 @@ test('el usuario accede a Yup básico, valida el formulario y lo envía', async 
     // Verificar mensaje de error requerido
     await expect(
         page.getByText('El campo es obligatorio')
-    ).toBeVisible()
+    ).toBeVisible({ timeout: 3000 })
 
     // Escribir un nombre demasiado corto
     await page.locator('input[type="text"]').fill('Al')
