@@ -6,7 +6,7 @@ export default mergeConfig(
     viteConfig,
     defineConfig({
         test: {
-            include: ['tests/vitest/**/*.test.ts'],
+            include: ['tests/**/*.test.ts'],
             coverage: {
                 enabled: true,
                 provider: 'v8',
