@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('el usuario accede a Yup básico, valida el formulario y lo envía', async ({ page }) => {
-    test.setTimeout(5000) // 10 segundos
+    test.setTimeout(5000) //5 segundos
     // Abrir la aplicación
     await page.goto('http://localhost:5173')
 
